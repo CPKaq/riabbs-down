@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 15% 0; */
     font-size: 3vw;
     height: 100vh;
     overflow: hidden;
@@ -10,6 +9,9 @@ body {
 
 .header {
     margin-top: 25vh;
+    color: #777;
+    letter-spacing: 0.5em;
+    font-weight: lighter;
 }
 
 ul.delta {
@@ -27,4 +29,13 @@ ul.delta li {
     font-size: 300%;
     min-width: 2ch;
     text-align: center;
+    font-weight: bold;
+}
+
+.bbs-down-logo {
+    width: 25vh;
+    height: 25vh;
+    margin-top: -10vh;
+    background-image: url('bbs-down.svg');
+    background-size: contain;
 }
