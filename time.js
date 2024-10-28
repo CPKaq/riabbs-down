@@ -20,11 +20,12 @@ function calculateDelta() {
     DOMhours.innerText = hours;
     DOMminutes.innerText = minutes;
     DOMseconds.innerText = seconds;
-
-    return [days, hours, minutes, seconds];
 }
 
-setInterval(calculateDelta, 500);
-
-// 初次调用  
-calculateDelta();
+// 文档加载完成后启动计时器
+window.onload = function() {  
+    calculateDelta();
+    setInterval(calculateDelta, 500);
+    console.log("置き去れ無数の朝を蹴散らして　消されたキミを回帰に探し");
+    console.log("繰り出せ無頭の亡霊と化して　全てはキミの帰還に咲く");
+};  
