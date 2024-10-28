@@ -10,7 +10,7 @@ body {
 .header {
     margin-top: 25vh;
     color: #777;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.75em;
     font-weight: lighter;
 }
 
@@ -33,9 +33,9 @@ ul.delta li {
 }
 
 .bbs-down-logo {
-    width: 25vh;
-    height: 25vh;
-    margin-top: -10vh;
+    width: 20vmin;
+    height: 20vmin;
+    margin-top: -10vmin;
     background-image: url('bbs-down.svg');
     background-size: contain;
 }
